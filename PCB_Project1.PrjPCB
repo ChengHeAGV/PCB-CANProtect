@@ -40,7 +40,7 @@ AnnotateSuffix=
 AnnotateScope=All
 AnnotateOrder=0
 DoLibraryUpdate=1
-DoDatabaseUpdate=1
+DoDatabaseUpdate=0
 ClassGenCCAutoEnabled=1
 ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
@@ -94,6 +94,26 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
+
+[Document5]
+DocumentPath=Miscellaneous Devices LC.IntLib
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+
+[GeneratedDocument1]
+DocumentPath=Project Outputs for PCB_Project1\Design Rule Check - PCB1.html
+DItemRevisionGUID=
 
 [SearchPath1]
 Path=D:\github\PCB\PCB-CANProtect\*.*
@@ -926,6 +946,24 @@ UpdateCurrentModels=1
 [DatabaseUpdateOptions]
 SelectedOnly=0
 PartTypes=0
+ComponentLibIdentifierKind0=Library Name And Type
+ComponentLibraryIdentifier0=Miscellaneous Connectors.IntLib
+ComponentDesignItemID0=Header 3
+ComponentSymbolReference0=Header 3
+ComponentUpdate0=1
+ComponentIsDeviceSheet0=0
+ComponentLibIdentifierKind1=Library Name And Type
+ComponentLibraryIdentifier1=Miscellaneous Devices.IntLib
+ComponentDesignItemID1=D Schottky
+ComponentSymbolReference1=D Schottky
+ComponentUpdate1=1
+ComponentIsDeviceSheet1=0
+ComponentLibIdentifierKind2=Library Name And Type
+ComponentLibraryIdentifier2=Miscellaneous Devices.IntLib
+ComponentDesignItemID2=Fuse 2
+ComponentSymbolReference2=Fuse 2
+ComponentUpdate2=1
+ComponentIsDeviceSheet2=0
 
 [Comparison Options]
 ComparisonOptions0=Kind=Net|MinPercent=75|MinMatch=3|ShowMatch=-1|Confirm=-1|UseName=-1|InclAllRules=0
